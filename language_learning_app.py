@@ -1,6 +1,6 @@
 import random
 
-
+#spanish
 words = [
     {"spanish": "el", "english": "the"},
     {"spanish": "de", "english": "of/from"},
@@ -22,8 +22,9 @@ words = [
     {"spanish": "tener", "english": "to have"},
     {"spanish": "le", "english": "him/her/you (indirect object)"},
     {"spanish": "lo", "english": "it/him/you (direct object)"},
+    
 ]
-
+#quiz
 def quiz_user(words):
     """Quiz the user with words."""
     random.shuffle(words)  
