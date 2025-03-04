@@ -1,6 +1,6 @@
 import random
 
-# edit this list - get more from Chat GPT
+
 words = [
     {"spanish": "el", "english": "the"},
     {"spanish": "de", "english": "of/from"},
@@ -26,7 +26,7 @@ words = [
 
 def quiz_user(words):
     """Quiz the user with words."""
-    random.shuffle(words)  # Shuffle the list of words
+    random.shuffle(words)  
     score = 0
 
     for word in words:
